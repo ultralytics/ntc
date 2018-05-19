@@ -7,7 +7,7 @@ http://www.ultralytics.com/projects
 
 # Description
 
-The https://github.com/ultralytics/msvm repo contains Neutron TimeCube (NTC) analysis tools.
+The https://github.com/ultralytics/ntc repo contains Neutron TimeCube (NTC) analysis tools.
 
 # Requirements
 
