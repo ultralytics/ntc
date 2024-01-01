@@ -25,7 +25,7 @@ Before diving in, make sure you have the following prerequisites:
 - The following MATLAB toolboxes should be installed:
   - Statistics and Machine Learning Toolbox
   - Signal Processing Toolbox
-  
+
 Ensure that all installations and configurations match these requirements to smoothly run the NTC analysis tools.
 
 ## 🏃 Running the Tools
@@ -37,7 +37,7 @@ To begin analyzing your data:
    ```matlab
    >> NTCviewer
    ```
-   
+
 Here is a glimpse of the kind of interface you can expect with our `NTCviewer`:
 
 ![mtcView Interface](https://github.com/University-of-Hawaii-Physics/mtc/blob/master/Analysis/Ultralytics/mtcview.png "mtcView")
@@ -47,6 +47,7 @@ Here is a glimpse of the kind of interface you can expect with our `NTCviewer`:
 We welcome contributions from the community! Whether you're fixing bugs, adding new features, or improving documentation, your input is invaluable. Take a look at our [Contributing Guide](https://docs.ultralytics.com/help/contributing) to get started. Also, we'd love to hear about your experience with Ultralytics products. Please consider filling out our [Survey](https://ultralytics.com/survey?utm_source=github&utm_medium=social&utm_campaign=Survey). A huge 🙏 and thank you to all of our contributors!
 
 <!-- Ultralytics contributors -->
+
 <a href="https://github.com/ultralytics/yolov5/graphs/contributors">
 <img width="100%" src="https://github.com/ultralytics/assets/raw/main/im/image-contributors.png" alt="Ultralytics open-source contributors"></a>
 
