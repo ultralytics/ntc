@@ -5,6 +5,8 @@
 
 Welcome to the Neutron TimeCube (NTC) analysis tools repository! This project is designed to provide researchers and data analysts with tools to interpret and visualize data from the NTC, a sophisticated device used in neutron detection and characterization.
 
+[![Ultralytics Actions](https://github.com/ultralytics/ntc/actions/workflows/format.yml/badge.svg)](https://github.com/ultralytics/ntc/actions/workflows/format.yml)
+
 ## 📜 Description
 
 The repository available at [ultralytics/ntc](https://github.com/ultralytics/ntc) houses a suite of MATLAB scripts and functions tailored for the analysis of neutron detection data. With these tools, users can process, analyze, and visualize NTC data, facilitating cutting-edge research in neutron science.
