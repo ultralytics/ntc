@@ -42,7 +42,7 @@ To begin analyzing your data:
 
 Here is a glimpse of the kind of interface you can expect with our `NTCviewer`:
 
-![mtcView Interface](https://github.com/University-of-Hawaii-Physics/mtc/blob/master/Analysis/Ultralytics/mtcview.png "mtcView")
+![mtcView Interface](https://github.com/University-of-Hawaii-Physics/mtc/blob/master/Analysis/Ultralytics/mtcview.png)
 
 ## 🤝 Contribute
 
