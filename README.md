@@ -5,6 +5,8 @@
 
 Welcome to the Neutron TimeCube (NTC) analysis tools repository! This project is designed to provide researchers and data analysts with tools to interpret and visualize data from the NTC, a sophisticated device used in neutron detection and characterization.
 
+[![Ultralytics Actions](https://github.com/ultralytics/ntc/actions/workflows/format.yml/badge.svg)](https://github.com/ultralytics/ntc/actions/workflows/format.yml)
+
 ## 📜 Description
 
 The repository available at [ultralytics/ntc](https://github.com/ultralytics/ntc) houses a suite of MATLAB scripts and functions tailored for the analysis of neutron detection data. With these tools, users can process, analyze, and visualize NTC data, facilitating cutting-edge research in neutron science.
@@ -15,16 +17,16 @@ Before diving in, make sure you have the following prerequisites:
 
 - [MATLAB](https://www.mathworks.com/products/matlab.html) version 2018a or higher.
 - Access to the 'functions-matlab' common functions repository:
-  ```bash
-  $ git clone https://github.com/ultralytics/functions-matlab
-  ```
-  Add the repository to the MATLAB path using:
-  ```matlab
-  >> addpath(genpath('/path/to/functions-matlab'))
-  ```
+    ```bash
+    $ git clone https://github.com/ultralytics/functions-matlab
+    ```
+    Add the repository to the MATLAB path using:
+    ```matlab
+    >> addpath(genpath('/path/to/functions-matlab'))
+    ```
 - The following MATLAB toolboxes should be installed:
-  - Statistics and Machine Learning Toolbox
-  - Signal Processing Toolbox
+    - Statistics and Machine Learning Toolbox
+    - Signal Processing Toolbox
 
 Ensure that all installations and configurations match these requirements to smoothly run the NTC analysis tools.
 
@@ -34,13 +36,13 @@ To begin analyzing your data:
 
 1. Open MATLAB
 2. Execute the command:
-   ```matlab
-   >> NTCviewer
-   ```
+    ```matlab
+    >> NTCviewer
+    ```
 
 Here is a glimpse of the kind of interface you can expect with our `NTCviewer`:
 
-![mtcView Interface](https://github.com/University-of-Hawaii-Physics/mtc/blob/master/Analysis/Ultralytics/mtcview.png "mtcView")
+![mtcView Interface](https://github.com/ultralytics/ntc/assets/26833433/32d0b7b9-4626-43c8-9ae1-85930414ea70)
 
 ## 🤝 Contribute
 
