@@ -1,5 +1,5 @@
 <br>
-<img src="https://raw.githubusercontent.com/ultralytics/assets/main/logo/Ultralytics_Logotype_Original.svg" width="320">
+<a href="https://ultralytics.com" target="_blank"><img src="https://raw.githubusercontent.com/ultralytics/assets/main/logo/Ultralytics_Logotype_Original.svg" width="320" alt="Ultralytics logo"></a>
 
 # 🌟 Introduction
 
@@ -17,16 +17,16 @@ Before diving in, make sure you have the following prerequisites:
 
 - [MATLAB](https://www.mathworks.com/products/matlab.html) version 2018a or higher.
 - Access to the 'functions-matlab' common functions repository:
-    ```bash
-    $ git clone https://github.com/ultralytics/functions-matlab
-    ```
-    Add the repository to the MATLAB path using:
-    ```matlab
-    >> addpath(genpath('/path/to/functions-matlab'))
-    ```
+  ```bash
+  $ git clone https://github.com/ultralytics/functions-matlab
+  ```
+  Add the repository to the MATLAB path using:
+  ```matlab
+  >> addpath(genpath('/path/to/functions-matlab'))
+  ```
 - The following MATLAB toolboxes should be installed:
-    - Statistics and Machine Learning Toolbox
-    - Signal Processing Toolbox
+  - Statistics and Machine Learning Toolbox
+  - Signal Processing Toolbox
 
 Ensure that all installations and configurations match these requirements to smoothly run the NTC analysis tools.
 
@@ -36,9 +36,9 @@ To begin analyzing your data:
 
 1. Open MATLAB
 2. Execute the command:
-    ```matlab
-    >> NTCviewer
-    ```
+   ```matlab
+   >> NTCviewer
+   ```
 
 Here is a glimpse of the kind of interface you can expect with our `NTCviewer`:
 
@@ -76,7 +76,7 @@ For bug reports, feature requests, and contributions, head to [GitHub Issues](ht
   <img src="https://github.com/ultralytics/assets/raw/main/social/logo-transparent.png" width="3%" alt="space">
   <a href="https://www.tiktok.com/@ultralytics"><img src="https://github.com/ultralytics/assets/raw/main/social/logo-social-tiktok.png" width="3%" alt="Ultralytics TikTok"></a>
   <img src="https://github.com/ultralytics/assets/raw/main/social/logo-transparent.png" width="3%" alt="space">
-  <a href="https://www.instagram.com/ultralytics/"><img src="https://github.com/ultralytics/assets/raw/main/social/logo-social-instagram.png" width="3%" alt="Ultralytics Instagram"></a>
+  <a href="https://ultralytics.com/bilibili"><img src="https://github.com/ultralytics/assets/raw/main/social/logo-social-bilibili.png" width="3%" alt="Ultralytics Instagram"></a>
   <img src="https://github.com/ultralytics/assets/raw/main/social/logo-transparent.png" width="3%" alt="space">
   <a href="https://ultralytics.com/discord"><img src="https://github.com/ultralytics/assets/raw/main/social/logo-social-discord.png" width="3%" alt="Ultralytics Discord"></a>
 </div>
