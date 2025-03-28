@@ -1,3 +1,5 @@
+% Ultralytics 🚀 AGPL-3.0 License - https://ultralytics.com/license
+
 function [] = DRS4stats()
 clc; close all
 %filename='scintillator.air.coupling.5gsps.xml';

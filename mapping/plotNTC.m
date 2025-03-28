@@ -1,3 +1,5 @@
+% Ultralytics 🚀 AGPL-3.0 License - https://ultralytics.com/license
+
 function [] = plotNTC(input0,output)
 
 i = MTCSRCCH2pixelID(NTCIRSDmap(1:128,'SRCCH'));

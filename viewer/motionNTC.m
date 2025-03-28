@@ -1,3 +1,5 @@
+% Ultralytics 🚀 AGPL-3.0 License - https://ultralytics.com/license
+
 function [] = motionNTC()
 ha=gca;
 p=ha.CurrentPoint;  x1=p(1,:);  x2=p(2,:); %mouse pointing vector
