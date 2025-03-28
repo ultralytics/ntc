@@ -1,3 +1,5 @@
+% Ultralytics 🚀 AGPL-3.0 License - https://ultralytics.com/license
+
 function X = NTCIRSDmap(i,mapto)
 %This functions maps the NTC pixels 1-128 into SRCCH format and vice versa
 %See NTC Rosetta Stone: https://docs.google.com/spreadsheets/d/1RBM7bU40RPUYE5Yir00huaN4qAF6mQY3DwBZ1RnqrHs/edit#gid=1975841640

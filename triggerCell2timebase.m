@@ -1,3 +1,5 @@
+% Ultralytics 🚀 AGPL-3.0 License - https://ultralytics.com/license
+
 function [that, X] = triggerCell2timebase(ei,board,ch,tc,X)
 ei=ei(:);  board=board(:);  ch=ch(:);  tc=tc(:);  if any(ch==0); ch=ch+1; end
 

@@ -1,3 +1,5 @@
+% Ultralytics 🚀 AGPL-3.0 License - https://ultralytics.com/license
+
 function porch = nanporch(V,threshold)
 %Best practice is to remove spikes before subtracting porch!
 %porch defined as baseline of every point before first crossing of threshold
