@@ -11,24 +11,29 @@ Welcome to the Neutron TimeCube (NTC) analysis tools repository! This project pr
 
 ## 📜 Project Overview
 
-The repository, available at [ultralytics/ntc](https://github.com/ultralytics/ntc), contains a suite of [MATLAB](https://www.mathworks.com/products/matlab.html) scripts and functions specifically designed for analyzing neutron detection data. These tools empower users to process, analyze, and visualize NTC data, supporting advanced research in [neutron science](https://en.wikipedia.org/wiki/Neutron_science).
+The repository, available at [ultralytics/ntc](https://github.com/ultralytics/ntc), contains a suite of [MATLAB](https://www.mathworks.com/products/matlab.html) scripts and functions specifically designed for analyzing neutron detection data. These tools empower users to process, analyze, and visualize NTC data, supporting advanced research in [neutron science](https://neutrons.ornl.gov/).
 
 ## ⚙️ Prerequisites
 
 Before you begin, ensure you meet the following requirements:
 
-- **MATLAB:** Version 2018a or newer.
-- **Common Functions:** Access to the `functions-matlab` common functions repository. Clone it using:
+- **MATLAB:** R2018a or newer.
+- **Common Functions:** Access to this repository plus shared Ultralytics MATLAB dependencies. Clone them using:
   ```bash
   git clone https://github.com/ultralytics/functions-matlab
+  git clone https://github.com/ultralytics/miniTimeCube
   ```
-  Then, add the repository to your MATLAB path:
+  Then, add this repository and the dependencies to your MATLAB path:
   ```matlab
+  addpath(genpath('/path/to/ntc')) % Replace with the actual path
   addpath(genpath('/path/to/functions-matlab')) % Replace with the actual path
+  addpath(genpath('/path/to/miniTimeCube')) % Provides shared MTC mapping and calibration helpers
   ```
 - **MATLAB Toolboxes:** The following toolboxes must be installed:
   - [Statistics and Machine Learning Toolbox](https://www.mathworks.com/products/statistics.html)
   - [Signal Processing Toolbox](https://www.mathworks.com/products/signal.html)
+  - [DSP System Toolbox](https://www.mathworks.com/products/dsp-system.html)
+  - [Curve Fitting Toolbox](https://www.mathworks.com/products/curvefitting.html)
 
 Verify that all installations and path configurations are correctly set up to ensure the NTC analysis tools run smoothly.
 
@@ -37,7 +42,7 @@ Verify that all installations and path configurations are correctly set up to en
 To start analyzing your NTC data:
 
 1.  Open MATLAB.
-2.  Navigate to the repository directory.
+2.  Navigate to the repository directory and confirm the paths above are active.
 3.  Execute the following command in the [MATLAB Command Window](https://www.mathworks.com/help/matlab/learn_matlab/command-window.html):
     ```matlab
     NTCviewer
@@ -45,7 +50,7 @@ To start analyzing your NTC data:
 
 Below is an example of the `NTCviewer` interface you will interact with:
 
-![mtcView Interface](https://github.com/ultralytics/ntc/assets/26833433/32d0b7b9-4626-43c8-9ae1-85930414ea70)
+![NTCviewer Interface](https://github.com/ultralytics/ntc/assets/26833433/32d0b7b9-4626-43c8-9ae1-85930414ea70)
 
 ## 🤝 Contributing
 
@@ -57,7 +62,7 @@ Contributions from the [GitHub](https://github.com/) community are highly encour
 
 Ultralytics offers two licensing options to accommodate different usage scenarios:
 
-- **AGPL-3.0 License:** This [OSI-approved](https://opensource.org/license) open-source license is ideal for students and enthusiasts interested in open collaboration and knowledge sharing. See the [LICENSE](https://github.com/ultralytics/ntc/blob/main/LICENSE) file for specifics.
+- **AGPL-3.0 License:** This [OSI-approved](https://opensource.org/license/agpl-3-0/) open-source license is ideal for students and enthusiasts interested in open collaboration and knowledge sharing. See the [LICENSE](https://github.com/ultralytics/ntc/blob/main/LICENSE) file for specifics.
 - **Enterprise License:** Designed for commercial applications, this license permits the integration of Ultralytics software and AI models into commercial products and services without the open-source requirements of AGPL-3.0. If your project involves commercial use, please inquire about an [Enterprise License](https://www.ultralytics.com/license).
 
 ## 📬 Get in Touch
