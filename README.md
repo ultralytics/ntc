@@ -54,7 +54,7 @@ Below is an example of the `NTCviewer` interface you will interact with:
 
 ## 🤝 Contributing
 
-Contributions from the [GitHub](https://github.com/) community are highly encouraged! Whether it involves fixing bugs, adding new features, or enhancing documentation, your input is valuable. Please review our [Contributing Guide](https://docs.ultralytics.com/help/contributing/) for detailed instructions on how to participate. We also invite you to share your experiences with [Ultralytics](https://www.ultralytics.com/) products by completing our brief [Survey](https://www.ultralytics.com/survey?utm_source=github&utm_medium=social&utm_campaign=Survey). A big thank you 🙏 to all our contributors!
+Contributions from the [GitHub](https://github.com/) community are highly encouraged! Whether it involves fixing bugs, adding new features, or enhancing documentation, your input is valuable. Please review our [Contributing Guide](https://docs.ultralytics.com/help/contributing) for detailed instructions on how to participate. We also invite you to share your experiences with [Ultralytics](https://www.ultralytics.com/) products by completing our brief [Survey](https://www.ultralytics.com/survey?utm_source=github&utm_medium=social&utm_campaign=Survey). A big thank you 🙏 to all our contributors!
 
 [![Ultralytics open-source contributors](https://raw.githubusercontent.com/ultralytics/assets/main/im/image-contributors.png)](https://github.com/ultralytics/ultralytics/graphs/contributors)
 
@@ -62,7 +62,7 @@ Contributions from the [GitHub](https://github.com/) community are highly encour
 
 Ultralytics offers two licensing options to accommodate different usage scenarios:
 
-- **AGPL-3.0 License:** This [OSI-approved](https://opensource.org/license/agpl-3-0/) open-source license is ideal for students and enthusiasts interested in open collaboration and knowledge sharing. See the [LICENSE](https://github.com/ultralytics/ntc/blob/main/LICENSE) file for specifics.
+- **AGPL-3.0 License:** This [OSI-approved](https://opensource.org/license/agpl-3-0) open-source license is ideal for students and enthusiasts interested in open collaboration and knowledge sharing. See the [LICENSE](https://github.com/ultralytics/ntc/blob/main/LICENSE) file for specifics.
 - **Enterprise License:** Designed for commercial applications, this license permits the integration of Ultralytics software and AI models into commercial products and services without the open-source requirements of AGPL-3.0. If your project involves commercial use, please inquire about an [Enterprise License](https://www.ultralytics.com/license).
 
 ## 📬 Get in Touch
